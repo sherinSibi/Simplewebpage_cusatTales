@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Photo Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .gallery-item {
+            background-color: grey;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+&nbsp;<a href="index.html">Back</a>
+<h1>My Photo Gallery</h1>
+<div class="gallery">
+    <div class="gallery-item">
+        <img src="images/WhatsApp Image 2024-11-02 at 12.43.38 AM.jpeg" alt="Photo 1">
+    </div>
+    <div class="gallery-item">
+        <img src="images/vallam.jpeg" alt="Photo 2">
+    </div>
+    <div class="gallery-item">
+        <img src="images/WhatsApp Image 2024-09-28 at 5.26.32 PM.jpeg" alt="Photo 3">
+    </div>
+    <div class="gallery-item">
+        <img src="images/WhatsApp Image 2024-09-28 at 6.32.22 PM.jpeg" alt="Photo 4">
+    </div>
+    <div class="gallery-item">
+        <img src="images/cus1.jpeg" alt="Photo 5">
+    </div>
+    <div class="gallery-item">
+        <img src="images/cusek.jpeg" alt="Photo 6">
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>OWRRY</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <style>
+        .centered-text {
+            text-align: center; /* Center-aligns the text */
+            margin: 0 auto; /* Centers the div itself */
+            width: 30%; /* Optional: set a width for the div */
+            padding: 20px; /* Optional: adds padding */
+            /*border: 1px solid #ccc;  Optional: adds a border */
+            /*background-color: #f9f9f9;  Optional: background color */
+            size:55px;
+        }
+        
+        .simple-table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures no space between cells */
+     margin-left: auto; /* Aligns the table to the right */
+    margin-right: 0; 
+    
+}
+
+.simple-table td {
+    padding: 10px; /* Adds space inside the cells */
+    text-align: center; /* Centers the content */
+}
+.marquee-container {
+    overflow: hidden; /* Hides the overflow */
+    white-space: nowrap; /* Prevents the text from wrapping */
+    width: 50%; /* Adjust as needed */
+    /*border: 1px solid #ccc;  Optional: adds a border around the marquee */
+    /*background-color: #f9f9f9;  Optional: background color */
+}
+
+.marquee-content {
+    display: inline-block; /* Allows horizontal scrolling */
+    animation: scroll 5s linear infinite; /* Adjust duration for speed */
+    
+}
+@keyframes scroll {
+    0% { transform: translateX(-100%); } /* Start from the left */
+    100% { transform: translateX(100%); } /* End on the right */
+}
+    </style>
+    </head>
+   
+    
+    <body style="background-image: url('images/friends-sunrise-young-happy.jpg');background-repeat: no-repeat;background-size:cover;">
+    <!--<div align >  <h1>CUSAT TALES</h1></centre>-->
+    <div class="centered-text">
+    <h1>CUSAT TALES</h1>
+</div>
+<!--   <div class="marquee-container">
+    <div class="marquee-content">
+        let's know more about us....
+    </div>
+</div>-->
+    
+  <marquee behavior="scroll" direction="right" scrollamount="10" style="color: white; font-size: 20px;">
+    let's know more about us...
+</marquee>
+    <table class="simple-table">
+    <tr>
+        <td><a href="newhtml.html" target="_blank">Click Me...<img src="images/6-1024.webp" style="width:2%;height:2%">.....</a></td>
+
+        <!--<td><img src="path/to/your/image.jpg" alt="Example Image" width="100"></td>-->
+    </tr>
+    <tr>         <td><a href="gallery.html" target="_blank"><b>GALLERY</b></a></td></tr>
+<!--    <tr>
+        <td><a href="newhtml2.html" target="_blank">Another Link</a></td>
+        <td><img src="path/to/another/image.jpg" alt="Another Image" width="100"></td>
+    </tr>-->
+</table>
+    <!-- Content here -->
+<!--<div style="background-image:;width:30%;height:30%; "  >ertrtretert</div>-->
+</html>
